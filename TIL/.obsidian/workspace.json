@@ -1,0 +1,181 @@
+{
+  "main": {
+    "id": "e2a88becd748a147",
+    "type": "split",
+    "children": [
+      {
+        "id": "b372191c5ace3eb4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "16be55fa1a2e7c7d",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5c1aff0da0530a4a",
+    "type": "split",
+    "children": [
+      {
+        "id": "546da5f50f5e87e9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "246da3a224ede7a5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f3084a42e5809416",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "794fc98f0d35830e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 324.5
+  },
+  "right": {
+    "id": "3fdb13f2cac5488b",
+    "type": "split",
+    "children": [
+      {
+        "id": "de3c2a5452772e96",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "032d475cfedb3116",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "885a87624391d628",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1c5c4d25578c886a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e9516bdcdf99f012",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "16be55fa1a2e7c7d",
+  "lastOpenFiles": [
+    "개발 공부/BE/Java/문법.md",
+    "개발 공부/BE/Java/객체 지향.md",
+    "개발 공부/BE/Java/객체 지향/패턴.md",
+    "개발 공부/BE/Java/객체 지향/객체지향 5원칙.md",
+    "LG CNS/1. 자소서 첨삭/1. 첨삭 기준.md",
+    "개발 공부/BE/Java/스프링.md",
+    "개발 공부/BE/Java/객체 지향",
+    "개발 공부/BE/JPA/정리 필요.md",
+    "개발 공부/BE/JPA",
+    "개발 공부/BE/DB/Mybatis.md",
+    "LG CNS/0. 직무/2. AI.md",
+    "LG CNS/0. 직무/1. DX vs CAM.md",
+    "LG CNS/3. 후기/1. 코딩테스트/2023 하반기 인턴.md",
+    "LG CNS/3. 후기/1. 코딩테스트/2023 하반기 수시.md",
+    "LG CNS/3. 후기/2. 과제분석/@ 과제분석 안내 메일.md",
+    "LG CNS/3. 후기/2. 과제분석/2023 하반기 인턴.md",
+    "LG CNS/3. 후기/2. 과제분석/2023 하반기 공채.md",
+    "LG CNS/3. 후기/1. 코딩테스트/2023 하반기 공채.md",
+    "LG CNS/3. 후기/1. 코딩테스트/@ 코딩테스트 안내 메일.md",
+    "개발 공부/BE/DB/오라클 DDL.md",
+    "개발 공부/BE/DB/오라클 중급.md",
+    "LG CNS/3. 후기/3. 1차 면접/2023 하반기 공채.md",
+    "교육/DB/2. SQL 튜닝 실습.md",
+    "교육/DB/1. SQL 튜닝 이론.md",
+    "개발 공부/FE/TypeScript/문법.md",
+    "개발 공부/FE/JavaScript/Utils.md",
+    "개발 공부/FE/JavaScript/MUI.md",
+    "개발 공부/FE/JavaScript/Date.md",
+    "LG CNS/0. 직무",
+    "LG CNS/4. 외국인",
+    "LG CNS/3. 후기/4. 2차 면접",
+    "LG CNS/1. 자소서 첨삭",
+    "개발 공부/FE/TypeScript",
+    "개발 공부/FE/JavaScript",
+    "개발 공부/BE",
+    "개발 공부/FE",
+    "Untitled.canvas"
+  ]
+}
