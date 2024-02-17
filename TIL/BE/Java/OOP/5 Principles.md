@@ -12,3 +12,4 @@
 ### 4. ISP : 인터페이스 분리의 원칙 (Interface Segregation Principle)
 
 ### 5. DIP : 의존성 역전의 원칙 (Depenedency Inversion Principle)
+temp
