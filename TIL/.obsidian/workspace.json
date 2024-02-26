@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BE/Java/OOP/5 Principles.md",
+                "file": "BE/Java/OOP/OOP.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BE/Java/OOP/5 Principles.md",
+                "file": "BE/Java/OOP/OOP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BE/Java/OOP/5 Principles.md",
+                "file": "BE/Java/OOP/OOP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BE/Java/OOP/5 Principles.md"
+                "file": "BE/Java/OOP/OOP.md"
               }
             }
           }
@@ -148,6 +148,11 @@
   },
   "active": "16be55fa1a2e7c7d",
   "lastOpenFiles": [
+    "Pasted image 20240226234853.png",
+    "Pasted image 20240226234641.png",
+    "BE/Java/OOP/5 Principles.md",
+    "BE/Java/OOP/OOP.md",
+    "BE/Java/Spring.md",
     "개발 공부/BE/Java/문법.md",
     "개발 공부/BE/Java/객체 지향.md",
     "개발 공부/BE/Java/객체 지향/패턴.md",
@@ -172,10 +177,6 @@
     "LG CNS/3. 후기/3. 1차 면접/2023 하반기 공채.md",
     "교육/DB/2. SQL 튜닝 실습.md",
     "교육/DB/1. SQL 튜닝 이론.md",
-    "개발 공부/FE/TypeScript/문법.md",
-    "개발 공부/FE/JavaScript/Utils.md",
-    "개발 공부/FE/JavaScript/MUI.md",
-    "개발 공부/FE/JavaScript/Date.md",
     "LG CNS/0. 직무",
     "LG CNS/4. 외국인",
     "LG CNS/3. 후기/4. 2차 면접",
