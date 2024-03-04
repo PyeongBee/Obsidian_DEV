@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm/Cheating Paper.md",
+                "file": "BE/Java/OOP/5 Principles.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 324.5
+    "width": 324.5,
+    "collapsed": true
   },
   "right": {
     "id": "3fdb13f2cac5488b",
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/Cheating Paper.md",
+                "file": "BE/Java/OOP/5 Principles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/Cheating Paper.md",
+                "file": "BE/Java/OOP/5 Principles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/Cheating Paper.md"
+                "file": "BE/Java/OOP/5 Principles.md"
               }
             }
           }
@@ -161,15 +162,15 @@
   },
   "active": "1373564b99833b81",
   "lastOpenFiles": [
-    "BE/Java/OOP/OOP.md",
+    "BE/Java/Spring.md",
     "Algorithm/Cheating Paper.md",
+    "BE/Java/OOP/OOP.md",
     "Untitled",
     "Algorithm",
     "BE/Java/OOP/5 Principles.md",
     "images/Pasted image 20240226234641.png",
     "images/Pasted image 20240226234853.png",
     "images",
-    "BE/Java/Spring.md",
     "개발 공부/BE/Java/문법.md",
     "개발 공부/BE/Java/객체 지향.md",
     "개발 공부/BE/Java/객체 지향/패턴.md",
