@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "b372191c5ace3eb4",
+        "id": "b69afff5961df029",
         "type": "tabs",
         "children": [
           {
-            "id": "16be55fa1a2e7c7d",
+            "id": "02a01f50a9bc3bdc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BE/Java/OOP/OOP.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1373564b99833b81",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BE/Java/OOP/5 Principles.md",
+                "file": "Algorithm/Cheating Paper.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 324.5,
-    "collapsed": true
+    "width": 324.5
   },
   "right": {
     "id": "3fdb13f2cac5488b",
@@ -99,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BE/Java/OOP/5 Principles.md",
+                "file": "Algorithm/Cheating Paper.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BE/Java/OOP/5 Principles.md",
+                "file": "Algorithm/Cheating Paper.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BE/Java/OOP/5 Principles.md"
+                "file": "Algorithm/Cheating Paper.md"
               }
             }
           }
@@ -160,14 +146,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1373564b99833b81",
+  "active": "246da3a224ede7a5",
   "lastOpenFiles": [
+    "BE/Java/OOP/5 Principles.md",
+    "BE/Java/OOP/OOP.md",
     "BE/Java/Spring.md",
     "Algorithm/Cheating Paper.md",
-    "BE/Java/OOP/OOP.md",
     "Untitled",
     "Algorithm",
-    "BE/Java/OOP/5 Principles.md",
     "images/Pasted image 20240226234641.png",
     "images/Pasted image 20240226234853.png",
     "images",
