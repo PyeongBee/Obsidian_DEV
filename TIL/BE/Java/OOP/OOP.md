@@ -12,3 +12,75 @@
 - 줄리엣 역할이 송혜교, 무명 배우로 바뀌어도 로미오 역할의 장동건은 상관 없다.
 - 로미오 역할만 잘하면 된다.
 - 줄리엣 역할의 구현이 바뀌어도 로미오 역할은 상관이 없는 것이다.
+
+### 관심사의 분리
+위 공연 무대의 예시에서 로미오 역할을 하는 배우 장동건이 '나는 줄리엣 역할로 김태희 배우 아니면 안 해.'라고 하면 어떨까? 배우 송혜교가 줄리엣 역할을 할 경우, 배우 장동건이 로미오 역할을 제대로 해내지 못한다는 것이다. 코드로 표현하면 아래와 같다.
+
+```Java
+public Class 장동건 implements 로미오역할 {
+	@Overide
+	public void 공연() {
+		줄리엣역할 줄리엣 = new 김태희();
+		장동건의연기(줄리엣.김태희의손)
+	}
+}
+```
+- 줄리엣을 김태희로 정해놓았다.
+- 장동건의 연기에는 줄리엣인 김태희의 손이 필요하다.
+- 배우가 송혜교로 바뀌면 줄리엣에는 김태희의 손이 없기 때문에 오류가 발생한다.
+
+로미오 역할의 장동건이 줄리엣 역할의 배우를 김태희로 정해놓은 것이다. 로미오 역할을 하는 사람이 로미오 연기 뿐만 아니라 줄리엣 배우 초빙까지 한 것이다. **SRP([[5 Principles#SRP]])** 를 위배한다.
+
+SRP를 지키기 위해서는 배우 초빙의 역할을 따로 분리해야 한다. 공연 기획자가 나와야할 시점이다.
+
+### AppConfig
+- 구현체는 직접 인터페이스의 구현체를 정하면 안된다. 누군가가 주입해줘야 한다. 그것이 AppConfig이다.
+- 애플리케이션의 동작을 구성하기 위해, 구현 객체를 생성하고 연결하는 책임을 진다.
+
+#### 1. 생성자 주입
+```java
+// MemberServiceImpl - 구현 (MemberRepository 구현체 의존성 없음)
+public Class MemberServiceImpl implements MemberService {
+	MemberRepository memberRepository;
+	
+	public MemberServiceImpl (MemberRepository memberRepository) {
+		this.memberRepository = memberRepository;
+	}
+	...
+}
+```
+
+```java
+// AppConfig - 구성 (MemberRepository에 MemoryMemberRepository 의존성 주입)
+public Class AppConfig {
+	public MemberService memberService() {
+		return new MemberServiceImpl(new MemoryMemberRepository());
+	}
+	...
+}
+```
+
+```java
+// MemberController - 실행
+public Class MemberController {
+	AppConfig appConfig = new AppConfig();
+	MemberService memberService = appConfig.memberService();
+	...
+}
+```
+
+### 2. 관심사의 분리로 적용한 객체지향 5원칙
+- [[5 Principles#1. SRP 단일 책임의 원칙 (Single Responsibility Principle)]]
+	- **하나의 클래스는 하나의 역할만 한다.**
+	- 로미오는 로미오 역할만. 배우 선택은 기획자가 한다.
+	- MemberServiceImpl은 MemberService 역할에 충실하고, MemberRepository 구현체는 AppConfig가 구성한다.
+- [[5 Principles#2. OCP 개방 폐쇄의 원칙 (Open Close Principle)]]
+	- **SW 요소는 확장에는 열려 있으나, 변경에는 닫혀 있어야 한다.**
+	- 애플리케이션를 구현 영역과 구성 영역으로 나눴다.
+	- MemberRepository 구현체가 바뀌어도, MemberService는 바뀌지 않는다.
+	 -> 확장에는 열려있고, 변경에는 닫혀있다.
+- [[5 Principles#5. DIP 의존성 역전의 원칙 (Depenedency Inversion Principle)]]
+	- **개발자는 추상화에 의존해야 하고, 구체화에 의존하면 안된다.**
+	- 로미오는 줄리엣 역할의 배우가 누군지에 의존하지 않는다.
+	- MemberService에는 MemberRepository 구현체에 대한 의존성이 주입되지 않는다.
+

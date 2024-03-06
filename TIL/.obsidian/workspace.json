@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm/Cheating Paper.md",
+                "file": "BE/Java/OOP/OOP.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/Cheating Paper.md",
+                "file": "BE/Java/OOP/OOP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/Cheating Paper.md",
+                "file": "BE/Java/OOP/OOP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/Cheating Paper.md"
+                "file": "BE/Java/OOP/OOP.md"
               }
             }
           }
@@ -146,12 +146,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "246da3a224ede7a5",
+  "active": "02a01f50a9bc3bdc",
   "lastOpenFiles": [
     "BE/Java/OOP/5 Principles.md",
     "BE/Java/OOP/OOP.md",
-    "BE/Java/Spring.md",
+    "다형성.md",
     "Algorithm/Cheating Paper.md",
+    "BE/Java/Spring.md",
     "Untitled",
     "Algorithm",
     "images/Pasted image 20240226234641.png",
@@ -180,7 +181,6 @@
     "개발 공부/BE/DB/오라클 중급.md",
     "LG CNS/3. 후기/3. 1차 면접/2023 하반기 공채.md",
     "교육/DB/2. SQL 튜닝 실습.md",
-    "교육/DB/1. SQL 튜닝 이론.md",
     "LG CNS/0. 직무",
     "LG CNS/4. 외국인",
     "LG CNS/3. 후기/4. 2차 면접",
