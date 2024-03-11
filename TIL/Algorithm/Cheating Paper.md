@@ -98,3 +98,5 @@ for i in range(2, M + 1):
         if i * pi >= len(primeList): break
         primeList[i * pi] = 0
 ```
+
+### 3. 
