@@ -71,4 +71,6 @@ collection.put("name", "hans"); // 가능
 collection = new HashMap<>(); // 불가능
 ```
 
-### 6. Mono
+### 6. String.join()
+- 버전 : JAVA8
+- 
