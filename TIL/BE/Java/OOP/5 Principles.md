@@ -38,6 +38,6 @@
 // private CarService carService = new HongCarService;
 private CarService carService = new SeulCarService;
 ```
-- 객체 지향의 핵심은 **다형성**([[OOP#다형성]])
+- 객체 지향의 핵심은 **다형성**([[OOP#**객체 지향의 정수 다형성 (polymorphism)**]])
 - **But!** 위 코드는 다형성은 지켰지만, OCP, DIP를 위반한다. 다형성만으로는 OCP, DIP를 지킬 수 없다.
 - 뭔가 더 필요하다.
