@@ -1,7 +1,7 @@
-정리 : https://www.seoulit.or.kr/service/cumm_08_view.html?type=faq&category_chk=&num_per_page=15&page=1&code_seq=NjA2Ng==
+정리 : https://www.seoulit.or.kr/service/cumm_08_view.html?type=faq&category_chk=&num_per_page=15&page=1&code_seq=NjA2Ng==  
 위키 : https://ko.wikipedia.org/wiki/%EC%9E%90%EB%B0%94_%EB%B2%84%EC%A0%84_%EC%97%AD%EC%82%AC
 ### Oak (1991)
-언어 어원 : https://v.daum.net/v/57f4d307ed94d2000107a349
+언어 어원 : https://v.daum.net/v/57f4d307ed94d2000107a349  
 자바커피 : https://www.donga.com/news/Opinion/article/all/20231207/122534265/1
 - 제임스 고슬링이 Sun microsystems 재직할 당시의 '그린 프로젝트'에서 시작되었습니다.
 - 냉장고, 전기밥솥, TV 등의 가전제품에 장착하는 칩에 각종 기능을 넣기 위한 언어로 개발
