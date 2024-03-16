@@ -150,6 +150,10 @@ mans.sort(key = lambda x: int(x.split()[0])) # 21, 21, 20
 print("\n".join(mans))
 ```
 
+### 5. filter
+
+
+
 
 ## 알고리즘
 ### 1. 기본 정렬
@@ -211,4 +215,16 @@ def GCD(x, y):
 
 def LCM(x, y):
 	return (x * y) // GCD(x, y)
+```
+
+### 5. 이항계수, 조합 경우의 수
+- n개에서 r개를 뽑는 조합 = nCr
+```python
+n, r = map(int, input().split())
+
+ans = 1
+for i in range(1, r + 1):
+    ans *= (n + 1 - i) / i
+
+print(ans)
 ```
