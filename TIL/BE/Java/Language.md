@@ -41,6 +41,11 @@ int old = responseJson.get("data").get("old").asText();
 
 ### 3. Function default 값
 - Java는 default 값을 지원하지 않는다.
+```java
+public static void func(int a = 5, int b) { // a = 5 이거 안됨.
+	return a + b
+}
+```
 
 ### 4. record 커스텀 생성자
 ```java
@@ -62,7 +67,9 @@ public record StudentDTO (
 ```
 
 ### 5. final과 불변성
-final은 정확히는 재할당만 금지한다.
+- final은 값이 정해져서 바뀌면 안되는 마지막 값을 의미한다.
+- null일 수 없다.
+- final은 정확히는 재할당만 금지한다.
 ```java
 final Map<String, boolean> collection = new HashMap<>();
 
