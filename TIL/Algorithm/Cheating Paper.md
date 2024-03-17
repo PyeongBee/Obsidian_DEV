@@ -151,8 +151,21 @@ print("\n".join(mans))
 ```
 
 ### 5. filter
+#### 5-1. filter 함수 사용
+```python
+nums = [3, 5, 4, 8, 9]
+nums = list(filter(lambda n: n%2 != 0, nums))
 
+print(nums) # [3, 5, 9]
+```
 
+#### 5-2. List Comprehension 사용
+```python
+nums = [3, 5, 4, 8, 9]
+nums = [n for n in nums if n%2 != 0]
+
+print(nums) # [3, 5, 9]
+```
 
 
 ## 알고리즘
