@@ -25,3 +25,23 @@ annotationProcessor 'org.projectlombok:lombok'
 
 ### @RequiredArgsConstructor
 - 필요한 arguments로 생성자를 자동으로 만들어준다.
+```java
+// 기존 코드
+@Service  
+public class MemberServiceImpl implements MemberService{  
+    private final MemberRepository memberRepository;
+
+	public MemberServiceImpl(MemberRepository memberRepository) {
+		this.memberRepository = memberRepository;
+	}
+	...
+}
+
+// @RequiredArgsConstructor 적용
+@Service  
+@RequiredArgsConstructor
+public class MemberServiceImpl implements MemberService{  
+    private final MemberRepository memberRepository;
+	...
+}
+```

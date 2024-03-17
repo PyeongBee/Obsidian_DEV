@@ -82,7 +82,7 @@ public class AutoAppConfig {
 #### 1. 생성자 주입
 ```java
 public class MemberServiceImpl implements MemberService {
-	private final memberRepository;
+	private final MemberRepository memberRepository;
 
 	@Autowired
 	public MemberServiceImpl(MemberRepository memberRepository) {
@@ -93,6 +93,7 @@ public class MemberServiceImpl implements MemberService {
 - 서비스의 구현체 의존성은 통상적으로 한 번 세팅해두면 바꿀 일이 없다. **불변!**
 - `final`을 사용할 수 있다. **불변성**을 더 잘 살릴 수 있다.
 - 컴파일 단계에서 의존성이 빠진 것을 알 수 있다.
+- 생성자가 하나만 있을 경우, Autowired는 생략 가능하다.
 
 #### 2. 수정자(Setter) 주입
 ```java
