@@ -81,6 +81,8 @@ print(L)
 D = dict({5: 1, 3: 3, 4: 2})
 
 print(D.get(5)) # 1
+
+print(D.get(999, 0)) # 0 -- 찾으려는 값이 없을 때 2번째 값을 출력!
 ```
 
 #### 3-2. key:value 조회
@@ -165,6 +167,19 @@ nums = [3, 5, 4, 8, 9]
 nums = [n for n in nums if n%2 != 0]
 
 print(nums) # [3, 5, 9]
+```
+
+### 6. enumerate
+String을 입력 받고 foreach 쓰면서도 index 살리고 싶을 때 사용한다.
+```python
+for i, c in enumerate("abcde"):
+	print(f'{i}. {c}')
+
+# 0. a
+# 1. b
+# 2. c
+# 3. d
+# 4. e
 ```
 
 
