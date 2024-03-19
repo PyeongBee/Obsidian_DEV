@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BE/Java/Lombok.md",
+                "file": "BE/Java/Spring/2. Bean.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BE/Java/Lombok.md",
+                "file": "BE/Java/Spring/2. Bean.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BE/Java/Lombok.md",
+                "file": "BE/Java/Spring/2. Bean.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BE/Java/Lombok.md"
+                "file": "BE/Java/Spring/2. Bean.md"
               }
             }
           }
@@ -148,11 +148,12 @@
   },
   "active": "02a01f50a9bc3bdc",
   "lastOpenFiles": [
-    "BE/Java/Spring.md",
-    "BE/Java/Lombok.md",
-    "BE/Java/Untitled",
-    "BE/Java/Temp.md",
     "Algorithm/Cheating Paper.md",
+    "BE/Java/Spring/2. Bean.md",
+    "BE/Java/Spring/1. Essense.md",
+    "BE/Java/Spring",
+    "BE/Java/Lombok.md",
+    "BE/Java/Temp.md",
     "BE/Java/Language.md",
     "BE/Java/History of JAVA.md",
     "BE/Java/OOP/Pattern.md",
@@ -181,7 +182,6 @@
     "LG CNS/3. 후기/2. 과제분석/@ 과제분석 안내 메일.md",
     "LG CNS/3. 후기/2. 과제분석/2023 하반기 인턴.md",
     "LG CNS/3. 후기/2. 과제분석/2023 하반기 공채.md",
-    "LG CNS/3. 후기/1. 코딩테스트/2023 하반기 공채.md",
     "LG CNS/0. 직무",
     "LG CNS/4. 외국인",
     "LG CNS/3. 후기/4. 2차 면접",
