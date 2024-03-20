@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BE/Java/Spring/2. Bean.md",
+                "file": "Algorithm/Cheating Paper.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BE/Java/Spring/2. Bean.md",
+                "file": "Algorithm/Cheating Paper.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BE/Java/Spring/2. Bean.md",
+                "file": "Algorithm/Cheating Paper.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BE/Java/Spring/2. Bean.md"
+                "file": "Algorithm/Cheating Paper.md"
               }
             }
           }
@@ -148,8 +148,8 @@
   },
   "active": "02a01f50a9bc3bdc",
   "lastOpenFiles": [
-    "Algorithm/Cheating Paper.md",
     "BE/Java/Spring/2. Bean.md",
+    "Algorithm/Cheating Paper.md",
     "BE/Java/Spring/1. Essense.md",
     "BE/Java/Spring",
     "BE/Java/Lombok.md",
