@@ -20,6 +20,7 @@ print(S + "\n")
 print(str(N) + "\n")
 ```
 
+
 ### 2. 배열 컨트롤
 #### 2-1. index 요소 제거
 ```python
@@ -147,6 +148,7 @@ D = dict({5: 1, 3: 3, 4: 2})
 print(list(D.values())[0]) # 1
 ```
 
+
 ### 4. 데이터가 쌍으로 움직일 때 꿀팁
 ```python
 N = int(input())
@@ -158,6 +160,7 @@ mans.sort(key = lambda x: int(x.split()[0])) # 21, 21, 20
 
 print("\n".join(mans))
 ```
+
 
 ### 5. filter
 #### 5-1. filter 함수 사용
@@ -176,6 +179,7 @@ nums = [n for n in nums if n%2 != 0]
 print(nums) # [3, 5, 9]
 ```
 
+
 ### 6. enumerate
 String을 입력 받고 foreach 쓰면서도 index 살리고 싶을 때 사용한다.
 ```python
@@ -188,6 +192,35 @@ for i, c in enumerate("abcde"):
 # 3. d
 # 4. e
 ```
+
+
+### 7. 참/거짓 조건문 배열화
+- `[거짓일 때 값, 참일 때 값][조건문]`
+```python
+A = 3
+
+print(['True', -1][A != 3])
+# False면 0이라서 0번째 요소, True면 1이라서 1번째 요소
+```
+
+
+### 8. X, Y 쌍으로 2중 정렬
+```python
+# ORDER BY Y, X (Y 정렬, Y 동일할 때 X 정렬)
+def ord(xy):
+	X, Y = xy.split()
+
+	# x, y 모두 최대 100,000자리 까지
+	# ex) 1, 2이면 2000001
+	return int(Y)*1000000 + int(X)
+
+XYs = ['1 2', '-1 3', '4 -1', '3 2']
+XYs.sort(key = lambda xy: ord(xy))
+
+print(XYs)
+# ['4 -1', '1 2', '3 2', '-1 3']
+```
+
 
 
 ## 알고리즘
@@ -255,11 +288,13 @@ def LCM(x, y):
 ### 5. 이항계수, 조합 경우의 수
 - n개에서 r개를 뽑는 조합 = nCr
 ```python
+import math
+F = math.factorial
+
+def nCr(n, r):
+    return int(F(n)/(F(r) * F(n-r)))
+
 n, r = map(int, input().split())
 
-ans = 1
-for i in range(1, r + 1):
-    ans *= (n + 1 - i) / i
-
-print(ans)
+print(nCr(n, r))
 ```
