@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Coding Test/Python/Cheating Paper.md",
+                "file": "1. Coding Test/Python/Data Structure/String.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Coding Test/Python/Cheating Paper.md",
+                "file": "1. Coding Test/Python/Data Structure/String.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Coding Test/Python/Cheating Paper.md",
+                "file": "1. Coding Test/Python/Data Structure/String.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Coding Test/Python/Cheating Paper.md"
+                "file": "1. Coding Test/Python/Data Structure/String.md"
               }
             }
           }
@@ -148,10 +148,11 @@
   },
   "active": "65b356c275857516",
   "lastOpenFiles": [
-    "1. Coding Test/Python/Data Structure/Dictionary.md",
     "1. Coding Test/Python/Cheating Paper.md",
-    "1. Coding Test/Python/Algorithm/Sort, Search.md",
     "1. Coding Test/Python/Algorithm/Math.md",
+    "1. Coding Test/Python/Data Structure/String.md",
+    "1. Coding Test/Python/Data Structure/Dictionary.md",
+    "1. Coding Test/Python/Algorithm/Sort, Search.md",
     "1. Coding Test/Python/Algorithm",
     "1. Coding Test/Python/Data Structure",
     "1. Coding Test/Python/Data Structure/Array.md",
@@ -183,7 +184,6 @@
     "개발 공부/BE/DB/Mybatis.md",
     "LG CNS/0. 직무/2. AI.md",
     "LG CNS/0. 직무/1. DX vs CAM.md",
-    "LG CNS/3. 후기/1. 코딩테스트/2023 하반기 인턴.md",
     "LG CNS/0. 직무",
     "LG CNS/4. 외국인",
     "Untitled.canvas"
