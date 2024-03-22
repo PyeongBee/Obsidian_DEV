@@ -75,3 +75,15 @@ print(['True', -1][A != 3])
 ```
 
 
+### 6. 반올림
+- **중요!!!** `round()`는 사사오입이 아니라 `오사오입`이다.
+- `int(x + 0.5)` 를 활용하자.
+```python
+print(round(0.4)) # 0
+print(round(0.5)) # 0
+print(round(0.6)) # 1
+
+print(int(0.49 + 0.5)) # 0
+print(int(0.5 + 0.5)) # 1
+print(int(0.51 + 0.5)) # 1
+```
