@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm/Cheating Paper.md",
+                "file": "1. Coding Test/Python/Cheating Paper.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/Cheating Paper.md",
+                "file": "1. Coding Test/Python/Cheating Paper.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/Cheating Paper.md",
+                "file": "1. Coding Test/Python/Cheating Paper.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/Cheating Paper.md"
+                "file": "1. Coding Test/Python/Cheating Paper.md"
               }
             }
           }
@@ -148,20 +148,26 @@
   },
   "active": "65b356c275857516",
   "lastOpenFiles": [
-    "BE/Java/Spring/2. Bean.md",
-    "Algorithm/Cheating Paper.md",
-    "BE/Java/Spring/1. Essense.md",
-    "BE/Java/Spring",
-    "BE/Java/Lombok.md",
-    "BE/Java/Temp.md",
-    "BE/Java/Language.md",
-    "BE/Java/History of JAVA.md",
-    "BE/Java/OOP/Pattern.md",
-    "BE/Java/OOP/OOP.md",
-    "BE/Java/OOP/5 Principles.md",
+    "1. Coding Test/Python/Data Structure/Dictionary.md",
+    "1. Coding Test/Python/Cheating Paper.md",
+    "1. Coding Test/Python/Algorithm/Sort, Search.md",
+    "1. Coding Test/Python/Algorithm/Math.md",
+    "1. Coding Test/Python/Algorithm",
+    "1. Coding Test/Python/Data Structure",
+    "1. Coding Test/Python/Data Structure/Array.md",
+    "1. Coding Test/Python",
+    "2. BE/Java/Spring/2. Bean.md",
+    "2. BE/Java/Spring/1. Essense.md",
+    "2. BE/Java/Spring",
+    "2. BE/Java/Lombok.md",
+    "2. BE/Java/Temp.md",
+    "2. BE/Java/Language.md",
+    "2. BE/Java/History of JAVA.md",
+    "2. BE/Java/OOP/Pattern.md",
+    "2. BE/Java/OOP/OOP.md",
+    "2. BE/Java/OOP/5 Principles.md",
     "다형성.md",
-    "Untitled",
-    "Algorithm",
+    "1. Coding Test",
     "images/Pasted image 20240226234641.png",
     "images/Pasted image 20240226234853.png",
     "images",
@@ -178,14 +184,8 @@
     "LG CNS/0. 직무/2. AI.md",
     "LG CNS/0. 직무/1. DX vs CAM.md",
     "LG CNS/3. 후기/1. 코딩테스트/2023 하반기 인턴.md",
-    "LG CNS/3. 후기/1. 코딩테스트/2023 하반기 수시.md",
-    "LG CNS/3. 후기/2. 과제분석/@ 과제분석 안내 메일.md",
-    "LG CNS/3. 후기/2. 과제분석/2023 하반기 인턴.md",
-    "LG CNS/3. 후기/2. 과제분석/2023 하반기 공채.md",
     "LG CNS/0. 직무",
     "LG CNS/4. 외국인",
-    "LG CNS/3. 후기/4. 2차 면접",
-    "LG CNS/1. 자소서 첨삭",
     "Untitled.canvas"
   ]
 }
