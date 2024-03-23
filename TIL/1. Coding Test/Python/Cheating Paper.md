@@ -1,5 +1,25 @@
 # Python
 
+## 성능 측정
+```python
+import time
+times = []
+
+def target():
+    # 성능 측정 코드
+
+for i in range(10):
+    start_time = time.process_time()
+    target()
+    end_time = time.process_time()
+    diff_time = int(round((end_time - start_time) * 1000))
+    times.append(diff_time)
+    print(f"{i}. time elapsed : {diff_time}ms")
+    
+avg_time = int(sum(times)/len(times))
+print(f"avg time elapsed : {avg_time}ms")
+```
+
 ## 기본
 ### 1. 빠른 입출력
 ```PYTHON
