@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Coding Test/Python/Data Structure/N x M Matrix.md",
+                "file": "1. Coding Test/Python/Cheating Paper.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Coding Test/Python/Data Structure/N x M Matrix.md",
+                "file": "1. Coding Test/Python/Cheating Paper.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Coding Test/Python/Data Structure/N x M Matrix.md",
+                "file": "1. Coding Test/Python/Cheating Paper.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Coding Test/Python/Data Structure/N x M Matrix.md"
+                "file": "1. Coding Test/Python/Cheating Paper.md"
               }
             }
           }
@@ -148,44 +148,46 @@
   },
   "active": "65b356c275857516",
   "lastOpenFiles": [
+    "1. Coding Test/Python/Data Structure/Set.md",
+    "1. Coding Test/Python/Library/itertools.md",
     "1. Coding Test/Python/Cheating Paper.md",
+    "1. Coding Test/Python/Library",
+    "1. Coding Test/Python/Data Structure/Array.md",
+    "3. FE/CSS/Usage.md",
+    "3. FE/JavaScript/Language.md",
+    "3. FE/JavaScript/Date.md",
+    "3. FE/CSS/MUI.md",
+    "3. FE/TypeScript/Language.md",
+    "3. FE/JavaScript/Utils.md",
+    "2. BE/JPA/Temp.md",
+    "2. BE/Java/Language.md",
+    "2. BE/Java/Spring/1. Essense.md",
+    "2. BE/Java/Temp.md",
+    "2. BE/Java/OOP/OOP.md",
+    "2. BE/Java/OOP/Pattern.md",
+    "2. BE/DB/Mybatis.md",
+    "2. BE/DB/Oracle DDL.md",
+    "2. BE/DB/Oracle Lv2.md",
+    "3. FE/CSS/Tailwind.md",
+    "3. FE/Next.js/SSR, CSR.md",
+    "1. Coding Test/Python/Algorithm/Math.md",
+    "3. FE/Next.js/1. Framework.md",
+    "[.md",
+    "images/Pasted image 20240325091415.png",
+    "images/Pasted image 20240325091822.png",
+    "3. FE/Next.js",
     "1. Coding Test/Python/Data Structure/N x M Matrix.md",
     "1. Coding Test/Python/Data Structure/String.md",
-    "1. Coding Test/Python/Algorithm/Math.md",
-    "1. Coding Test/Python/Data Structure/Dictionary.md",
-    "1. Coding Test/Python/Algorithm/Sort, Search.md",
     "1. Coding Test/Python/Algorithm",
     "1. Coding Test/Python/Data Structure",
-    "1. Coding Test/Python/Data Structure/Array.md",
     "1. Coding Test/Python",
-    "2. BE/Java/Spring/2. Bean.md",
-    "2. BE/Java/Spring/1. Essense.md",
     "2. BE/Java/Spring",
-    "2. BE/Java/Lombok.md",
-    "2. BE/Java/Temp.md",
-    "2. BE/Java/Language.md",
-    "2. BE/Java/History of JAVA.md",
-    "2. BE/Java/OOP/Pattern.md",
-    "2. BE/Java/OOP/OOP.md",
-    "2. BE/Java/OOP/5 Principles.md",
-    "다형성.md",
     "1. Coding Test",
     "images/Pasted image 20240226234641.png",
     "images/Pasted image 20240226234853.png",
     "images",
-    "개발 공부/BE/Java/문법.md",
-    "개발 공부/BE/Java/객체 지향.md",
-    "개발 공부/BE/Java/객체 지향/패턴.md",
-    "개발 공부/BE/Java/객체 지향/객체지향 5원칙.md",
-    "LG CNS/1. 자소서 첨삭/1. 첨삭 기준.md",
-    "개발 공부/BE/Java/스프링.md",
     "개발 공부/BE/Java/객체 지향",
-    "개발 공부/BE/JPA/정리 필요.md",
     "개발 공부/BE/JPA",
-    "개발 공부/BE/DB/Mybatis.md",
-    "LG CNS/0. 직무/2. AI.md",
-    "LG CNS/0. 직무",
-    "LG CNS/4. 외국인",
     "Untitled.canvas"
   ]
 }

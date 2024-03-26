@@ -48,6 +48,5 @@ const newSet = new Set(arr);
 ```
 
 > Array.from 함수는 유사 배열 객체나 반복 가능 객체를 얕은 복사(shallow copy)하여 새로운 배열(Array) 객체를 만들어줍니다.
->
 >- **유사 배열 객체(array-like object) :** length 속성과 index element를 가지는 객체
 >- **반복 가능 객체(iterable object) :** 배열을 일반화한 객체 ex)Map, Set

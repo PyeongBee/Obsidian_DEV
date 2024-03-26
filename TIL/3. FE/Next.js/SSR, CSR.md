@@ -1,0 +1,17 @@
+### 1. use client
+- Next.js는 React.js와는 다르게 SSR, CSR을 선택적으로 사용할 수 있다.
+- 그래서 Next.js에는 서버 컴포넌트, 클라이언트 컴포넌트라는 개념이 있다.
+- 기본적으로는 서버 컴포넌트이고, React.js에서 처럼 클라이언트 컴포넌트로 사용하고자 할 때는 최상단에 'use client'라고 명시해줘야 한다.
+```Javascript
+'use client'; // 클라이언트 컴포넌트
+
+import ...;
+
+const Home = () => {
+...
+```
+
+### 2. 서버/클라이언트 컴포넌트 역할
+![[Pasted image 20240325091822.png]]
+출처 : [Next.js 공식 문서](https://nextjs.org/docs/app/building-your-application/rendering/composition-patterns)
+
