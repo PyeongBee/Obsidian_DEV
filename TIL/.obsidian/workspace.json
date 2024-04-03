@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b69afff5961df029",
+        "id": "011ffe89d20ca0d4",
         "type": "tabs",
         "children": [
           {
-            "id": "65b356c275857516",
+            "id": "dcc492b7bb217bf8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Coding Test/Python/Cheating Paper.md",
+                "file": "3. FE/Next.js/2. SSR.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Coding Test/Python/Cheating Paper.md",
+                "file": "3. FE/Next.js/2. SSR.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Coding Test/Python/Cheating Paper.md",
+                "file": "3. FE/Next.js/2. SSR.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Coding Test/Python/Cheating Paper.md"
+                "file": "3. FE/Next.js/2. SSR.md"
               }
             }
           }
@@ -146,11 +146,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "65b356c275857516",
+  "active": "dcc492b7bb217bf8",
   "lastOpenFiles": [
+    "3. FE/Next.js/SSR, CSR.md",
+    "4. WEB/Client - Server/1. CORS.md",
+    "images/Pasted image 20240403133341.png",
+    "images/Pasted image 20240403134254.png",
+    "images/Pasted image 20240403133010.png",
+    "images/Pasted image 20240403125656.png",
+    "images/Pasted image 20240403125304.png",
+    "images/Pasted image 20240325091822.png",
+    "images/Pasted image 20240226234853.png",
+    "images/Pasted image 20240226234641.png",
+    "images/Pasted.md",
+    "Pasted.md",
+    "4. WEB/2. Http.md",
+    "4. WEB/Client - Server",
+    "4. WEB/3..md",
+    "4. WEB/1. Network.md",
+    "3. FE/Next.js/2. SSR.md",
+    "4. WEB",
+    "3. FE/Next.js/1. Framework.md",
+    "2. BE/Java/Lombok.md",
+    "2. BE/Java/Language.md",
+    "2. BE/Java/History of JAVA.md",
+    "2. BE/Java/Temp.md",
+    "2. BE/Java/OOP/5 Principles.md",
+    "2. BE/JPA/Temp.md",
+    "1. Coding Test/Python/Cheating Paper.md",
     "1. Coding Test/Python/Data Structure/Set.md",
     "1. Coding Test/Python/Library/itertools.md",
-    "1. Coding Test/Python/Cheating Paper.md",
     "1. Coding Test/Python/Library",
     "1. Coding Test/Python/Data Structure/Array.md",
     "3. FE/CSS/Usage.md",
@@ -159,35 +184,14 @@
     "3. FE/CSS/MUI.md",
     "3. FE/TypeScript/Language.md",
     "3. FE/JavaScript/Utils.md",
-    "2. BE/JPA/Temp.md",
-    "2. BE/Java/Language.md",
-    "2. BE/Java/Spring/1. Essense.md",
-    "2. BE/Java/Temp.md",
-    "2. BE/Java/OOP/OOP.md",
-    "2. BE/Java/OOP/Pattern.md",
-    "2. BE/DB/Mybatis.md",
-    "2. BE/DB/Oracle DDL.md",
-    "2. BE/DB/Oracle Lv2.md",
-    "3. FE/CSS/Tailwind.md",
-    "3. FE/Next.js/SSR, CSR.md",
-    "1. Coding Test/Python/Algorithm/Math.md",
-    "3. FE/Next.js/1. Framework.md",
-    "[.md",
     "images/Pasted image 20240325091415.png",
-    "images/Pasted image 20240325091822.png",
     "3. FE/Next.js",
-    "1. Coding Test/Python/Data Structure/N x M Matrix.md",
-    "1. Coding Test/Python/Data Structure/String.md",
     "1. Coding Test/Python/Algorithm",
     "1. Coding Test/Python/Data Structure",
     "1. Coding Test/Python",
     "2. BE/Java/Spring",
     "1. Coding Test",
-    "images/Pasted image 20240226234641.png",
-    "images/Pasted image 20240226234853.png",
     "images",
-    "개발 공부/BE/Java/객체 지향",
-    "개발 공부/BE/JPA",
     "Untitled.canvas"
   ]
 }

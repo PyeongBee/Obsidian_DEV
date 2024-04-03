@@ -24,7 +24,7 @@ annotationProcessor 'org.projectlombok:lombok'
 - Model의 ToString을 필드를 이용해 깔끔하게 만들어준다.
 
 ### @RequiredArgsConstructor
-- 필요한 arguments로 생성자를 자동으로 만들어준다.
+- 필요한 arguments로 생성자를 자동으로 만들어준다. (final을 붙여줘야 함)
 ```java
 // 기존 코드
 @Service  
