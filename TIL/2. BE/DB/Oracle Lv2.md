@@ -46,6 +46,8 @@ SELECT SEQ.CURRVAL FROM DUAL;
 - 현재 세션의 CURRVAL을 조회하기 때문에, NEXTVAL로 세션을 잡고 CURRVAL을 조회해야 한다.
 - 세션 1에서 NEXTVAL 후, CURRVAL 조회 시 100이었다고 가정하자. 세션 2에서 NEXTVAL 후, CURRVAL 조회 시에는 101이다. 하지만 세션 1에서 다시 조회를 해도 100이 나온다.
 
+참고 : https://mkil.tistory.com/218
+
 ### 4. EXISTS/NOT EXISTS vs JOIN
 ```sql
 SELECT NAME, COST, CITY
@@ -69,3 +71,4 @@ SELECT P.NAME, P.COST, P.CITY
 > - **EXISTS의 경우는 inner query를 만족하는 레코드를 처음 만나는 순간 EXISTS가 true이므로 inner query를 더 이상 평가하지 않는다.**  
 > - **그래서 일반적으로 EXISTS보다 JOIN 속도가 빠르다고 하지만, 중복된 값이 많이 나올 경우에는 EXISTS가 더 빠르다.**
 
+참고 : https://jason-heo.github.io/mysql/2014/05/22/avoid-mysql-in.html

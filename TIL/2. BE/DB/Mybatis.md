@@ -49,7 +49,7 @@
 출처 - https://deeplify.dev/back-end/spring/select-key
 
 ### 7. 파라미터 받아올 때 '#'과 '$'의 차이
-
+참고 : https://mine-it-record.tistory.com/300
 
 ### 8. Enum 사용 시 TypeHandler
 참고 : https://yonghwankim-dev.tistory.com/249
