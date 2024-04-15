@@ -78,6 +78,30 @@ collection.put("name", "hans"); // 가능
 collection = new HashMap<>(); // 불가능
 ```
 
-### 6. String.join()
+### 6. String을 합치는 방법
+참고 : [StringBuilder, StringBuffer, + 연산자, concat 비교](https://futurecreator.github.io/2018/06/02/java-string-concatenation)
+참고 : [String.Join vs. StringBuilder: which is faster?](https://stackoverflow.com/questions/585860/string-join-vs-stringbuilder-which-is-faster)
+참고 : [concat, + 연산자, StringBuilder](https://devdy.tistory.com/9)
+참고 : [StringJoining.class and String.join()](https://parkhyeokjin.github.io/java/2019/07/18/StringJoining.html)
+참고 : [Performance for Java Stream.concat VS Collection.addAll](https://stackoverflow.com/questions/41622027/performance-for-java-stream-concat-vs-collection-addall)
+
+#### 1. String.join()
 - 버전 : JAVA8
-- 
+
+### 7. String Byte 수로 글자수 계산
+참고 : [java 한글을 2byte로 취급하여 substring 하는 함수](https://databook.tistory.com/39)
+참고 : [String Byte 계산 성능 비교](https://programmingsummaries.tistory.com/239)
+참고 : [인코딩에 따른 차이](https://hgko1207.github.io/2021/03/10/java-dev-6/)
+
+### 8. Char 비교
+```java
+str.charAt(i) == "1"
+```
+
+이건 틀렸다. charAt은 **char**이고, "1" 이건 **string** 이라서 비교가 안된다.
+따라서, " " -> ' ' 이렇게 바꾸면 해결된다.
+
+```java
+str.charAt(i) == '1'
+```
+
