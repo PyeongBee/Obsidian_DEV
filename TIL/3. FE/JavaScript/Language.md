@@ -50,3 +50,33 @@ const newSet = new Set(arr);
 > Array.from 함수는 유사 배열 객체나 반복 가능 객체를 얕은 복사(shallow copy)하여 새로운 배열(Array) 객체를 만들어줍니다.
 >- **유사 배열 객체(array-like object) :** length 속성과 index element를 가지는 객체
 >- **반복 가능 객체(iterable object) :** 배열을 일반화한 객체 ex)Map, Set
+
+### 8. 모바일 여부 체크
+```js
+const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+```
+
+### 9. html 태그 포함된 string을 태그 대로 렌더링
+```jsx
+const example = () => {
+	const codes = "<b>Will This Work?</b>";
+    return (
+        <div dangerouslySetInnerHTML={ {__html: codes} }>
+        </div>
+    );
+}
+```
+
+### 10. 문자열의 개행을 요소 안에서 적용
+```jsx
+const example = () => {
+	const str = '줄바꿈\n테스트';
+	return (
+	    <div style={{ whiteSpace:'pre-line' }}>
+		    {str}
+		</div>
+	);
+}
+```
+- 개행만 적용 시
+- 개행 + 들여쓰기 까지 적용하려면 `pre-wrap`
