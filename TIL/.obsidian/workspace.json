@@ -13,13 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. BE/Spring/1. Essense.md",
+                "file": "6. Security/Encryption.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cb3e2175969a6ac0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "대법원 아키텍처.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "01e3a52d4b883b72",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "용어 때려박기.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. BE/Spring/1. Essense.md",
+                "file": "용어 때려박기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. BE/Spring/1. Essense.md",
+                "file": "용어 때려박기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. BE/Spring/1. Essense.md"
+                "file": "용어 때려박기.md"
               }
             }
           }
@@ -146,13 +171,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dcc492b7bb217bf8",
+  "active": "01e3a52d4b883b72",
   "lastOpenFiles": [
+    "대법원 아키텍처.md",
+    "용어 때려박기.md",
+    "6. Security/Encryption.md",
+    "2. BE/DB/@Retro.md",
+    "5. Architecture/Untitled.md",
+    "6. Security",
+    "2. BE/Build/Maven.md",
+    "2. BE/Build/Gradle.md",
+    "2. BE/Spring/1. Essense.md",
     "2. BE/Spring/99. AOP.md",
     "2. BE/Spring/2. Bean.md",
-    "2. BE/Spring/1. Essense.md",
     "2. BE/DB/Decode (== case when).md",
-    "2. BE/Build/Gradle.md",
     "2. BE/OOP/Pattern.md",
     "2. BE/OOP/OOP.md",
     "2. BE/OOP/Model.md",
@@ -170,12 +202,6 @@
     "1. Coding Test/Python/Cheating Paper.md",
     "1. Coding Test/Python/Data Structure/Queue.md",
     "3. FE/CSS/Tailwind.md",
-    "3. FE/Next.js/4. API route.md",
-    "3. FE/Next.js/1. Framework.md",
-    "3. FE/JavaScript/Language.md",
-    "1. Coding Test/Python/Algorithm/Sort, Search.md",
-    "1. Coding Test/Python/@Library/itertools.md",
-    "1. Coding Test/Python/Library/itertools.md",
     "images/Pasted image 20240416000729.png",
     "4. WEB/Http",
     "3. FE/React.js",
@@ -186,7 +212,6 @@
     "1. Coding Test/Python/@Library",
     "images/Pasted image 20240414135313.png",
     "images/Pasted image 20240414135459.png",
-    "3. FE/@Optimize",
     "images/Pasted image 20240403133341.png",
     "images/Pasted image 20240403134254.png",
     "images/Pasted image 20240403133010.png",
